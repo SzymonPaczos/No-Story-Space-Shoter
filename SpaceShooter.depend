@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1670792884 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/SpaceShooter/main.cpp
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
