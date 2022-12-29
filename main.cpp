@@ -3,7 +3,7 @@
 #include "include/App.hpp"
 int main()
 {
-    App::getSingleton().run();
+    App::getInstance().run();
 
     return 0;
 }
