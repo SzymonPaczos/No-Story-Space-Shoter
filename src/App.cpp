@@ -8,22 +8,22 @@ App::App()
 void App::run()
 {
 
-    sf::Time timeLastUpdate = sf::Time::Zero;
+    sf::Time elapsedTime = sf::Time::Zero;
     sf::Clock gameClock;
     const sf::Time stepTime = sf::seconds(1.f/60.f);
 
     while (m_window->isOpen())
     {
         sf::Time time = gameClock.restart();
-        timeLastUpdate += time;
-        while(timeLastUpdate > stepTime)
+        elapsedTime += time;
+        while(elapsedTime > stepTime)
         {
             sf::Event event;
             while (m_window->pollEvent(event))
             {
                 if (event.type == sf::Event::Closed)m_window->close();
             }
-            timeLastUpdate -= stepTime;
+            elapsedTime -= stepTime;
         }
         m_window->clear();
        /////Drawing...

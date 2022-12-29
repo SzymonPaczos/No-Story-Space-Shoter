@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,7 +38,17 @@
 			<Add library="sfml-window" />
 			<Add library="sfml-system" />
 		</Linker>
+		<Unit filename="include/App.hpp" />
+		<Unit filename="include/AssetsManager.hpp" />
+		<Unit filename="include/BasicInGameElement.hpp" />
+		<Unit filename="include/DestructibleInGameElement.hpp" />
+		<Unit filename="include/Player.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/App.cpp" />
+		<Unit filename="src/AssetsManager.cpp" />
+		<Unit filename="src/BasicInGameElement.cpp" />
+		<Unit filename="src/DestructibleInGameElement.cpp" />
+		<Unit filename="src/Player.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

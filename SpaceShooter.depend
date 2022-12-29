@@ -8,17 +8,38 @@
 	<SFML/System.hpp>
 	"include/App.hpp"
 
-1672217389 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/AssetsManager.cpp
+1672345909 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/AssetsManager.cpp
 	"AssetsManager.hpp"
 
-1672345676 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/AssetsManager.hpp
+1672345837 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/AssetsManager.hpp
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
+	<memory>
+	<string>
 
-1672340534 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/App.cpp
+1672349270 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/App.cpp
 	"App.hpp"
 
 1672341887 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/App.hpp
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
+
+1672347336 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/DestructibleInGameElement.cpp
+	"DestructibleInGameElement.hpp"
+
+1672347654 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/DestructibleInGameElement.hpp
+	<SFML/System.hpp>
+
+1672349412 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/BasicInGameElement.cpp
+	"BasicInGameElement.hpp"
+
+1672349422 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/BasicInGameElement.hpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+
+1672349341 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/Player.cpp
+	"Player.hpp"
+
+1672349343 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/Player.hpp
+	"BasicInGameElement.hpp"
 
