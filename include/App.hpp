@@ -14,7 +14,7 @@ class App final
 
     public:
         void operator=(const App &) = delete;
-        static App & getSingleton()
+        static App & getInstance()
         {
             static App _app;
             return _app;
