@@ -11,7 +11,7 @@
 1672345909 source:/home/szymon/Pulpit/Programowanie/Space-Shooter/src/AssetsManager.cpp
 	"AssetsManager.hpp"
 
-1672345837 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/AssetsManager.hpp
+1672349763 /home/szymon/Pulpit/Programowanie/Space-Shooter/include/AssetsManager.hpp
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
 	<memory>
