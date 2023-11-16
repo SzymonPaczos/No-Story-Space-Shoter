@@ -2,6 +2,7 @@
 #define APP_H
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
+#include "Player.hpp"
 
 class App final
 {

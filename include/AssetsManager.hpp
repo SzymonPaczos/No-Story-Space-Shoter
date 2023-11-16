@@ -2,8 +2,10 @@
 #define ASSETSMANAGER_H
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
-#include <memory>
+#include <iostream>
 #include <string>
+#include <map>
+
 class AssetsManager
 {
     private:
@@ -12,7 +14,9 @@ class AssetsManager
     public:
         static AssetsManager & getInstance();
         void operator=(const AssetsManager &) = delete;
-        std::shared_ptr<sf::Texture> getTexture(std::string _path);
+        const sf::Texture& getTexture(std::string _path);
+
+        std::map<std::string, sf::Texture> m_textures;
 
 };
 #endif // ASSETSMANAGER_H

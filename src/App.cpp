@@ -12,6 +12,8 @@ void App::run()
     sf::Clock gameClock;
     const sf::Time stepTime = sf::seconds(1.f/60.f);
 
+    Player m_player;
+
     while (m_window->isOpen())
     {
         sf::Time time = gameClock.restart();
@@ -23,10 +25,15 @@ void App::run()
             {
                 if (event.type == sf::Event::Closed)m_window->close();
             }
+            m_player.update(elapsedTime);
+
+
             elapsedTime -= stepTime;
         }
-        m_window->clear();
-       /////Drawing...
+        m_window->clear(sf::Color::Blue);
+
+        m_player.draw(*m_window);
+
         m_window->display();
     }
 

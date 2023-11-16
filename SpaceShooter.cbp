@@ -42,12 +42,14 @@
 		<Unit filename="include/AssetsManager.hpp" />
 		<Unit filename="include/BasicInGameElement.hpp" />
 		<Unit filename="include/DestructibleInGameElement.hpp" />
+		<Unit filename="include/Enemy.hpp" />
 		<Unit filename="include/Player.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/App.cpp" />
 		<Unit filename="src/AssetsManager.cpp" />
 		<Unit filename="src/BasicInGameElement.cpp" />
 		<Unit filename="src/DestructibleInGameElement.cpp" />
+		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Extensions />
 	</Project>

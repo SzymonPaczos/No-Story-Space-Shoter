@@ -11,6 +11,7 @@ class DestructibleInGameElement
     protected:
 
     private:
+
 };
 
 #endif // DESTRUCTIBLEINGAMEELEMENT_HPP
