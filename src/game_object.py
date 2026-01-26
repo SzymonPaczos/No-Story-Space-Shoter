@@ -10,5 +10,5 @@ class GameObject(ABC):
         pass
 
     @abstractmethod
-    def draw(self, screen):
+    def draw(self, renderer):
         pass
