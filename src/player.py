@@ -20,5 +20,9 @@ class Player(GameObject):
         if keys[pygame.K_d]:
             self.position.x += self.speed * delta_time
 
-    def draw(self, screen):
-        screen.blit(self.sprite, self.position)
+    def draw(self, renderer):
+        # Lazy load texture from Pygame Surface to GPU Texture
+        if not hasattr(self, 'texture'):
+            self.texture = renderer.texture_from_surface(self.sprite)
+            
+        renderer.draw(self.texture, self.position)
